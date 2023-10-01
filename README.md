@@ -16,12 +16,8 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on open source project
 - ⚡ Fun fact: Love sports 🏀 ⚾ 🎱 🏐 gaming 🎮 travel ✈
 
-
-
-    
- 
+[<img src="https://baskvava.github.io/portfolio/portfolio-3.png">](https://baskvava.github.io/portfolio/)
   
-
 <div align="left">
   <picture align="center">
     <source
