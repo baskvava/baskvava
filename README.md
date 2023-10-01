@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on open source project
 - ⚡ Fun fact: Love sports 🏀 ⚾ 🎱 🏐 gaming 🎮 travel ✈
 
-<div align="center">
+<div align="left">
   <picture align="center">
     <source
       align="center"
@@ -35,23 +35,7 @@ Here are some ideas to get you started:
     <img />
   </picture>
   
-  <picture align="center"  valign="bottom">
-    <source
-      align="center"
-      valign="top"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=baskvava&show_icons=true&theme=tokyonight&layout=compact"
-      media="(prefers-color-scheme: dark)"
-      height=196
-    />
-    <source
-      align="center"
-      valign="top"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=baskvava&show_icons=true&layout=compact"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-      height=196
-    />
-    <img align="center" valign="top" align="center" src="https://github-readme-stats.vercel.app/api?username=tokyonight&show_icons=true&layout=compact"  height=196 />
-  </picture>
+  
 
   <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" width=132  valign="bottom" />
  
