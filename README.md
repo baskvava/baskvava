@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: Love sports 🏀 ⚾ 🎱 🏐 gaming 🎮 travel ✈
 
 <a href="https://baskvava.github.io/portfolio/" target="_blank"> 
-  <img src="https://baskvava.github.io/portfolio/portfolio-3.png"> 
+  <img title="porfolio" src="https://baskvava.github.io/portfolio/portfolio-3.png"> 
 </a>
   
 <div align="left">
