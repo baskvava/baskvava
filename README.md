@@ -16,7 +16,9 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on open source project
 - ⚡ Fun fact: Love sports 🏀 ⚾ 🎱 🏐 gaming 🎮 travel ✈
 
-[<img src="https://baskvava.github.io/portfolio/portfolio-3.png">](https://baskvava.github.io/portfolio/)
+<a href="https://baskvava.github.io/portfolio/" target="_blank"> 
+  <img src="https://baskvava.github.io/portfolio/portfolio-3.png"> 
+</a>
   
 <div align="left">
   <picture align="center">
@@ -37,7 +39,7 @@ Here are some ideas to get you started:
     <img />
   </picture>
   
-  <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" width=132 target="_blank" valign="bottom" />
+  <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" width=132 valign="bottom" />
  
 </div>
 
