@@ -37,7 +37,7 @@ Here are some ideas to get you started:
     <img />
   </picture>
   
-  <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" width=132  valign="bottom" />
+  <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" width=132 target="_blank" valign="bottom" />
  
 </div>
 
