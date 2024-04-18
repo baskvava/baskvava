@@ -15,10 +15,6 @@ Here are some ideas to get you started:
 - 🌱 I enjoy learning new things with ``` coding ``` 💻
 - 👯 I’m looking to collaborate on open source project
 - ⚡ Fun fact: Love sports 🏀 ⚾ 🎱 🏐 gaming 🎮 travel ✈
-
-<a href="https://baskvava.github.io/portfolio/" target="_blank"> 
-  <img title="porfolio" src="https://baskvava.github.io/portfolio/portfolio-2.gif"> 
-</a>
   
 <div align="left">
   <picture align="center">
