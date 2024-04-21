@@ -1,5 +1,5 @@
 <h1 align="center">Hello world 🙌 I'm Clara</h1>
-<h3 align="center">Frontend Engineer, looking for <a href="https://www.linkedin.com/in/ying-hsuan-chen1/">new opportunity</a></h3>
+<h3 align="center">Frontend Engineer, looking for new opportunity</h3>
 
 <!--
 **baskvava/baskvava** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
