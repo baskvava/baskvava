@@ -1,0 +1,36 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+
+    <style>
+        .bg { fill: #0d1117; }
+        .card-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 15; }
+        .title { font-family: 'Segoe UI', sans-serif; fill: #58a6ff; font-weight: bold; font-size: 20px; }
+        .subtitle { font-family: 'Segoe UI', sans-serif; fill: #8b949e; font-size: 14px; }
+        .text-body { font-family: 'Consolas', monospace; fill: #c9d1d9; font-size: 14px; }
+        .stat-label { font-family: 'Segoe UI', sans-serif; fill: #8b949e; font-size: 12px; font-weight: bold; text-anchor: middle; }
+        .radar-poly { fill: rgba(56, 139, 253, 0.4); stroke: #58a6ff; stroke-width: 2; }
+        .radar-bg { fill: none; stroke: #30363d; stroke-width: 1; }
+        .skill-text { font-family: 'Segoe UI', sans-serif; fill: #c9d1d9; font-size: 12px; font-weight: bold; }
+    </style>
+    
+<rect width="100%" height="100%" class="bg" />
+<rect x="10" y="10" width="780" height="380" class="card-bg" />
+<text x="40" y="50" class="title">Code Conjurer</text>
+<text x="40" y="75" class="subtitle">Player: Your Name | Date: 2026-01-13</text>
+<text x="40" y="110" class="text-body" style="fill: #58a6ff; font-weight: bold;">>> DM Log:</text>
+<text x="50" y="130" class="text-body">The Code Conjurer has summoned a debug spell, but it's still a work in progress..</text>
+
+        <text x="40" y="290" class="skill-text">Debugging</text>
+        <rect x="100" y="280" width="200" height="10" rx="4" fill="#21262d" />
+        <rect x="100" y="280" width="170.0" height="10" rx="4" fill="#FFC107" />
+        <text x="310" y="290" class="skill-text" style="font-size: 10px;">85%</text>
+        
+<polygon points="600.0,170.0 628.5316954888546,190.72949016875157 617.6335575687742,224.27050983124843 582.3664424312258,224.27050983124843 571.4683045111453,190.72949016875157" class="radar-bg" />
+<polygon points="600.0,140.0 657.0633909777092,181.45898033750316 635.2671151375484,248.54101966249686 564.7328848624517,248.54101966249686 542.9366090222908,181.45898033750316" class="radar-bg" />
+<polygon points="600.0,100.0 695.1056516295154,169.09830056250527 658.7785252292473,280.90169943749476 541.2214747707527,280.90169943749476 504.89434837048464,169.09830056250527" class="radar-bg" />
+<text x="600.0" y="85.0" class="stat-label">STR</text>
+<text x="718.8820645368942" y="164.46304564688106" class="stat-label">AGI</text>
+<text x="673.4731565365591" y="293.036954353119" class="stat-label">INT</text>
+<text x="526.5268434634409" y="293.036954353119" class="stat-label">WIS</text>
+<text x="481.1179354631058" y="164.46304564688106" class="stat-label">LUK</text>
+<polygon points="600.0,130.0 657.0633909777092,181.45898033750316 647.0228201833978,264.7213595499958 582.3664424312258,224.27050983124843 590.4894348370485,196.90983005625054" class="radar-poly" />
+</svg>
