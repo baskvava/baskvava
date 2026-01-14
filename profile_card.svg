@@ -1,36 +1,57 @@
 <svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
 
-    <style>
-        .bg { fill: #0d1117; }
-        .card-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 15; }
-        .title { font-family: 'Segoe UI', sans-serif; fill: #58a6ff; font-weight: bold; font-size: 20px; }
-        .subtitle { font-family: 'Segoe UI', sans-serif; fill: #8b949e; font-size: 14px; }
-        .text-body { font-family: 'Consolas', monospace; fill: #c9d1d9; font-size: 14px; }
-        .stat-label { font-family: 'Segoe UI', sans-serif; fill: #8b949e; font-size: 12px; font-weight: bold; text-anchor: middle; }
-        .radar-poly { fill: rgba(56, 139, 253, 0.4); stroke: #58a6ff; stroke-width: 2; }
-        .radar-bg { fill: none; stroke: #30363d; stroke-width: 1; }
-        .skill-text { font-family: 'Segoe UI', sans-serif; fill: #c9d1d9; font-size: 12px; font-weight: bold; }
-    </style>
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#302b63;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#24243e;stop-opacity:1" />
+        </linearGradient>
+        <filter id="shadow">
+            <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
+        </filter>
+        <style>
+            .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #ffffff; font-weight: 800; font-size: 24px; filter: url(#shadow); }
+            .subtitle { font-family: 'Segoe UI', sans-serif; fill: #a2a9b1; font-size: 14px; }
+            .comment-box { fill: rgba(0,0,0,0.3); rx: 10; stroke: rgba(255,255,255,0.1); stroke-width: 1; }
+            .comment-text { font-family: 'Courier New', Courier, monospace; fill: #7ee787; font-size: 13px; }
+            .stat-label { font-family: 'Segoe UI', sans-serif; fill: #ffffff; font-size: 11px; font-weight: bold; text-anchor: middle; }
+            .radar-poly { fill: rgba(99, 218, 255, 0.2); stroke: #63daff; stroke-width: 2; filter: url(#shadow); }
+            .radar-grid { fill: none; stroke: #444; stroke-width: 1; stroke-dasharray: 4; }
+            .skill-name { font-family: 'Segoe UI', sans-serif; fill: #fff; font-size: 12px; font-weight: 600; }
+        </style>
+    </defs>
     
-<rect width="100%" height="100%" class="bg" />
-<rect x="10" y="10" width="780" height="380" class="card-bg" />
-<text x="40" y="50" class="title">Code Conjurer</text>
-<text x="40" y="75" class="subtitle">Player: Your Name | Date: 2026-01-13</text>
-<text x="40" y="110" class="text-body" style="fill: #58a6ff; font-weight: bold;">>> DM Log:</text>
-<text x="50" y="130" class="text-body">The Code Conjurer has summoned a debug spell, but it's still a work in progress..</text>
+<rect width="100%" height="100%" fill="url(#bgGradient)" rx="15" />
+<text x="40" y="50" class="title">Automated Algorithmic Alchemist</text>
+<text x="40" y="75" class="subtitle">Agent Report | User | 2026-01-13</text>
+<line x1="600" y1="50" x2="760" y2="50" stroke="#63daff" stroke-width="2" opacity="0.5" />
+<rect x="40" y="100" width="380" height="110" class="comment-box" />
+<text x="50" y="120" fill="#a2a9b1" font-size="11" font-weight="bold" font-family="monospace">>> DM_LOG_OUTPUT:</text>
+<text x="50" y="140" class="comment-text">Another day, another commit. Still AFK on</text>
+<text x="50" y="158" class="comment-text">Saturday.</text>
 
-        <text x="40" y="290" class="skill-text">Debugging</text>
-        <rect x="100" y="280" width="200" height="10" rx="4" fill="#21262d" />
-        <rect x="100" y="280" width="170.0" height="10" rx="4" fill="#FFC107" />
-        <text x="310" y="290" class="skill-text" style="font-size: 10px;">85%</text>
+        <text x="40" y="250" class="skill-name">Python</text>
+        <rect x="40" y="256" width="380" height="6" fill="rgba(255,255,255,0.1)" rx="3" />
+        <rect x="40" y="256" width="228.0" height="6" rx="3" fill="#3776AB" />
         
-<polygon points="600.0,170.0 628.5316954888546,190.72949016875157 617.6335575687742,224.27050983124843 582.3664424312258,224.27050983124843 571.4683045111453,190.72949016875157" class="radar-bg" />
-<polygon points="600.0,140.0 657.0633909777092,181.45898033750316 635.2671151375484,248.54101966249686 564.7328848624517,248.54101966249686 542.9366090222908,181.45898033750316" class="radar-bg" />
-<polygon points="600.0,100.0 695.1056516295154,169.09830056250527 658.7785252292473,280.90169943749476 541.2214747707527,280.90169943749476 504.89434837048464,169.09830056250527" class="radar-bg" />
-<text x="600.0" y="85.0" class="stat-label">STR</text>
-<text x="718.8820645368942" y="164.46304564688106" class="stat-label">AGI</text>
-<text x="673.4731565365591" y="293.036954353119" class="stat-label">INT</text>
-<text x="526.5268434634409" y="293.036954353119" class="stat-label">WIS</text>
-<text x="481.1179354631058" y="164.46304564688106" class="stat-label">LUK</text>
-<polygon points="600.0,130.0 657.0633909777092,181.45898033750316 647.0228201833978,264.7213595499958 582.3664424312258,224.27050983124843 590.4894348370485,196.90983005625054" class="radar-poly" />
+
+        <text x="40" y="280" class="skill-name">JS</text>
+        <rect x="40" y="286" width="380" height="6" fill="rgba(255,255,255,0.1)" rx="3" />
+        <rect x="40" y="286" width="152.0" height="6" rx="3" fill="#F7DF1E" />
+        
+
+        <text x="40" y="310" class="skill-name">Docker</text>
+        <rect x="40" y="316" width="380" height="6" fill="rgba(255,255,255,0.1)" rx="3" />
+        <rect x="40" y="316" width="114.0" height="6" rx="3" fill="#2496ED" />
+        
+<polygon points="600.0218989845451,192.50000871937453 626.1608130638828,211.52286252107578 616.1463726622667,242.2608321913447 583.8181940364202,242.23508839103303 573.8527212528853,211.48120817717194" class="radar-grid" />
+<polygon points="600.0437979690903,165.0000174387491 652.3216261277655,203.04572504215156 632.2927453245333,264.5216643826894 567.6363880728403,264.47017678206606 547.7054425057705,202.9624163543439" class="radar-grid" />
+<polygon points="600.0656969536354,137.50002615812366 678.4824391916483,194.56858756322737 648.4391179867999,286.7824965740341 551.4545821092605,286.7052651730991 521.5581637586558,194.44362453151584" class="radar-grid" />
+<polygon points="600.0875959381807,110.0000348774982 704.643252255531,186.09145008430315 664.5854906490666,309.04332876537876 535.2727761456807,308.9403535641322 495.41088501154104,185.9248327086878" class="radar-grid" />
+<text x="600.1035224723953" y="90.0000412188615" class="stat-label">STR</text>
+<text x="723.669298120173" y="179.92625919054007" class="stat-label">AGI</text>
+<text x="676.3283071307151" y="325.2330249045385" class="stat-label">INT</text>
+<text x="523.5041899903499" y="325.1113269394289" class="stat-label">WIS</text>
+<text x="476.39468228636673" y="179.72934774663102" class="stat-label">LUK</text>
+<polygon points="600.0700767505446,132.00002790199855 641.8573009022124,206.43658003372127 658.1269415841599,300.1389958888409 554.6909433019765,282.25824749489254 568.6232655034623,209.77744981260633" class="radar-poly" />
 </svg>
