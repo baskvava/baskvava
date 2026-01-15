@@ -7,8 +7,8 @@
   
   <br/>
 
-  <a href="https://github.com/baskvava/ai-coding-pro">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8e2de2,100:4a00e0&height=200&section=header&text=Building%20the%20Next-Gen%20Interview%20Platform&fontSize=40&animation=fadeIn&fontAlignY=38&desc=AI%20Interview%20Pro%20-%20Your%20Socratic%20Coding%20Coach&descAlignY=55&descAlign=50" alt="AI Interview Pro Header" width="100%"/>
+  <a href="https://github.com/baskvava/ai-interview-coach">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8e2de2,100:4a00e0&height=200&section=header&text=Building%20the%20Next-Gen%20Interview%20Platform&fontSize=40&animation=fadeIn&fontAlignY=38&desc=AI%20Interview%20Pro%20-%20Your%20Socratic%20Coding%20Coach&descAlignY=55&descAlign=50" alt="AI Interview Coach Header" width="100%"/>
   </a>
 
 </div>
@@ -17,19 +17,19 @@
 
 ## 🚨 STOP SCROLLING! Check This Out 👇
 
-I am currently pouring my energy into building **[AI Interview Pro](https://github.com/baskvava/ai-coding-pro)**, a project that redefines how developers prepare for technical interviews. 
+I am currently pouring my energy into building **[AI Interview Coach](https://github.com/baskvava/ai-interview-coach)**, a project that redefines how developers prepare for technical interviews. 
 
 **Why you should care (and Star 🌟 it):**
 Most AI tools just give you the answer. **AI Interview Pro** is different—it acts like a **Socratic Coach**. It guides you through the problem-solving process without spoiling the solution, simulating a *real* FAANG-style interview experience.
 
-### 🔥 [AI Interview Pro](https://github.com/baskvava/ai-coding-pro) Highlights:
+### 🔥 [AI Interview Coach](https://github.com/baskvava/ai-interview-coach) Highlights:
 > *"The infinite LeetCode alternative that actually teaches you."*
 
 | 🤖 **Socratic AI Coach** | ♾️ **Infinite Problems** | ⚡ **Real-time Feedback** |
 |:---:|:---:|:---:|
 | Guides you with hints, doesn't just write code for you. | Generates unique algo problems & test cases on the fly. | Analyze Big O complexity & code quality instantly. |
 
-👉 **[View the Repository & Give it a Star!](https://github.com/baskvava/ai-coding-pro)** 👈
+👉 **[View the Repository & Give it a Star!](https://github.com/baskvava/ai-interview-coach)** 👈
 
 <br/>
 
