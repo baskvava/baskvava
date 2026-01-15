@@ -36,7 +36,7 @@ Most AI tools just give you the answer. **AI Interview Pro** is different—it a
 ---
 
 ### 🛠️ Tech Stack & Tools I Use
-While building high-quality applications like **AI Interview Pro**, these are my weapons of choice:
+While building high-quality applications like **AI Interview Coach**, these are my weapons of choice:
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,python,git,vscode,github&perline=9" />
