@@ -28,7 +28,7 @@ Most AI tools just give you the answer. **AI Interview Coach** is different—it
 |:---:|:---:|:---:|
 | Guides you with hints, doesn't just write code for you. | Generates unique algo problems & test cases on the fly. | Analyze Big O complexity & code quality instantly. |
 
-👉 **[View the Repository & Give it a Star!](https://baskvava.github.io/ai-interview-coach/)** 👈
+👉 **[View the Repository & Give it a Star!](https://github.com/baskvava/ai-interview-coach)** 👈
 
 <br/>
 
